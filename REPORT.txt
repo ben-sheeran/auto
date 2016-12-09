@@ -1,0 +1,7 @@
+
+
+I've been in charge of all of the cameras, lighting, and environment modeling. It's been a bit of a slog. Outdoor lighting is kinda tricky and right now im just using mental ray physical sun and sky and I'm having pretty good results, but I had to do a lot of tweaking and rendering to get things looking good. We'll see what people think of the lighting during crit I guess. I might have to go back and tweak some stuff again cause i realized something was wonky with my monitor and was screwing up some color values. 
+
+One problem that we've definitelly run into is versioning. It's not like with code where you can just use github and merges arent that bad, there's much more mutual exclusion. We've had a few times where things have gotten a bit messy, but everythings been backed up so nothing too bad has happened.
+
+Overall, I think things are coming together ok. I'm a bit nervous about rendering, but we'll cross that bridge when we get to it I guess.
