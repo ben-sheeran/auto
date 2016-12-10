@@ -1,8 +1,8 @@
 # XGen Palette File
 #
-# Version:  F:/HDD Documents/Autodesk/Maya/Maya2016/plug-ins/xgen/
-# Author:   Ben
-# Date:     Fri Dec 09 13:47:49 2016
+# Version:  /Applications/Autodesk/maya2016/plug-ins/xgen/
+# Author:   kokonakajima
+# Date:     Fri Dec  9 23:13:51 2016
 
 FileVersion 17
 
@@ -10,7 +10,7 @@ Palette
 	name			archivecollection
 	parent			
 	xgDataPath		${PROJECT}xgen/collections/environment__ns__archivecollection
-	xgProjectPath		F:/HDD Documents/3d junk/cs125/auto/
+	xgProjectPath		/Users/kokonakajima/Desktop/github/auto/
 	xgDogTag		
 	endAttrs
 
@@ -29,7 +29,7 @@ Description
 	groom			
 	descriptionId		0
 	xgDataPath		${PROJECT}xgen/collections/environment__ns__archivecollection/
-	xgProjectPath		F:/HDD Documents/3d junk/cs125/auto/
+	xgProjectPath		/Users/kokonakajima/Desktop/github/auto/
 	endAttrs
 
 RendermanRenderer
