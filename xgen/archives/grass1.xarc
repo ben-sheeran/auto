@@ -1,0 +1,5 @@
+#ArchiveGroup 0 name="grass1" description="No description." thumbnail="grass1.png" materials="${PROJECT}/xgen/archives/materials/grass1.ma" color=[1,0,0]
+0 "${PROJECT}/xgen/archives/abc/grass1.abc" material=grass1:grassWindNarrow2ShaderSG objects=|grassWindNarrow2MeshGroup|grassWindNarrow2Main
+1 "${PROJECT}/xgen/archives/abc/grass1_med.abc" material=grass1:grassWindNarrow2ShaderSG objects=|grassWindNarrow2MeshGroup|grassWindNarrow2Main
+2 "${PROJECT}/xgen/archives/abc/grass1_lo.abc" material=grass1:grassWindNarrow2ShaderSG objects=|grassWindNarrow2MeshGroup|grassWindNarrow2Main
+

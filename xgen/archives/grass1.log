@@ -1,0 +1,73 @@
+AbcExport v1.0 using Alembic 1.5.4 (built May  8 2014 13:47:10)
+hlp = xgenm.xmaya.xgmArchiveExport.xgmArchiveExport()
+hlp.processDir( 'grass1', 'C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/', ['C:/Users/Ben Sheeran/Documents/cs125/auto/scenes/models/grass1.mb'], ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main'], 1, '90.0', '60.0', 1.000000, 1.000000 )
+[  0.00%] creating sub directoriesC:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/
+[  0.00%]  processing file C:/Users/Ben Sheeran/Documents/cs125/auto/scenes/models/grass1.mb
+[  0.00%]   processing scene C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/grass1
+[  0.00%]    openScene C:/Users/Ben Sheeran/Documents/cs125/auto/scenes/models/grass1.mb
+File read in  0.085 seconds.
+[  0.00%]    fixNodeToShapeParent objs - ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  8.33%]    processScene 1 ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  8.33%]    processScene 2 ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     splitByShadingGroups ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[  0.00%]     getSGsFromObj( |grassWindNarrow2MeshGroup|grassWindNarrow2Main ) returned [u'grassWindNarrow2ShaderSG']
+[  4.17%]    processScene ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  4.17%]    before archiveExport ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     archiveExport alembic object: ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     abcExport C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/abc/grass1.abc
+[  0.00%]     abcExport objects ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     abcExport select objects [u'|grassWindNarrow2MeshGroup|grassWindNarrow2Main|grassWindNarrow2MainShape']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/abc/grass1.abc"
+[  0.00%]     getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[  8.33%]     archiveExport for callbacks
+[  8.33%]     archiveExport for callbacks finished
+[  2.78%]    before materialExport ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  2.78%]    materialExport C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/materials/grass1.ma
+[  2.78%]    getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[ 33.33%]   processing scene C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/grass1_med
+[  0.00%]    openScene C:/Users/Ben Sheeran/Documents/cs125/auto/scenes/models/grass1.mb
+File read in  0.012 seconds.
+[  0.00%]    fixNodeToShapeParent objs - ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[ 44.44%]    processScene 1 ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     polyReduce 60.0 |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+Warning: History will be on for the command since a selected item has history.
+[ 44.44%]    processScene 2 ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     splitByShadingGroups ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[  0.00%]     getSGsFromObj( |grassWindNarrow2MeshGroup|grassWindNarrow2Main ) returned [u'grassWindNarrow2ShaderSG']
+[ 38.89%]    processScene ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[ 38.89%]    before archiveExport ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     archiveExport alembic object: ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     abcExport C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/abc/grass1_med.abc
+[  0.00%]     abcExport objects ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     abcExport select objects [u'|grassWindNarrow2MeshGroup|grassWindNarrow2Main|grassWindNarrow2MainShape']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/abc/grass1_med.abc"
+[  0.00%]     getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[ 44.44%]     archiveExport for callbacks
+[ 44.44%]     archiveExport for callbacks finished
+[ 16.67%]   processing scene C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/grass1_lo
+[  0.00%]    openScene C:/Users/Ben Sheeran/Documents/cs125/auto/scenes/models/grass1.mb
+File read in  0.011 seconds.
+[  0.00%]    fixNodeToShapeParent objs - ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]    fixNodeToShapeParent shapeParentObj - ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[ 27.78%]    processScene 1 ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     polyReduce 90.0 |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+Warning: History will be on for the command since a selected item has history.
+[ 27.78%]    processScene 2 ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     splitByShadingGroups ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[  0.00%]     getSGsFromObj( |grassWindNarrow2MeshGroup|grassWindNarrow2Main ) returned [u'grassWindNarrow2ShaderSG']
+[ 22.22%]    processScene ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[ 22.22%]    before archiveExport ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     archiveExport alembic object: ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     abcExport C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/abc/grass1_lo.abc
+[  0.00%]     abcExport objects ['|grassWindNarrow2MeshGroup|grassWindNarrow2Main']
+[  0.00%]     abcExport select objects [u'|grassWindNarrow2MeshGroup|grassWindNarrow2Main|grassWindNarrow2MainShape']
+[  0.00%]     abcExport -selection -uvWrite -frameRange 1.000000 1.000000 -worldSpace -file "C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/abc/grass1_lo.abc"
+[  0.00%]     getSGsFromObj |grassWindNarrow2MeshGroup|grassWindNarrow2Main
+[ 27.78%]     archiveExport for callbacks
+[ 27.78%]     archiveExport for callbacks finished
+[100.00%]  done in 0.240 sec C:/Users/Ben Sheeran/Documents/cs125/auto/xgen/archives/
